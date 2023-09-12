@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>오늘 점심은?</title>
+<link rel="stylesheet" href="/web01/css/lunch.css">
+</head>
+<body>
+<div class="content">
+<header>
+<h1 id="title">평일 점심 메뉴 기록하기</h1>
+</header>
+<div class="container">
+<img src="images/eat.gif" alt="짱구가 도시락 먹는 영상">
+<h4 id="ex">점심에 먹은 메뉴를 기록해 봅시다~!</h4>
+<form action="lunch" method="post" id="formlunch">
+<ul>
+<li>월요일 <input type="text" name="mon"></li>
+<li>화요일 <input type="text" name="tue"></li>
+<li>수요일 <input type="text" name="wen"></li>
+<li>목요일 <input type="text" name="thu"></li>
+<li>금요일 <input type="text" name="fri"></li>
+</ul>
+<div class="find-btn">
+<button type="reset" value="reset">다시 쓰기</button>
+<button type="submit" value="submit">제출하기</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
